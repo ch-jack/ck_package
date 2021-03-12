@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+</head>
+
+<body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/inventory.js"></script>
+	
+    <div class="ui">
+        <div class="inventory">
+            <div id="playerInventory">
+            </div>
+            <div id="controls">
+                <div class="info-div2">拖拽物品购买及使用</div>
+                <div class="info-div"></div>
+                <div class="controls-div">
+                    <input type="number" class="control" id="count" value="1">
+                    <div class="control" id="use">使用</div>
+                    <div class="control" id="give">赠送</div>
+                    <div class="control" id="drop">丢弃</div>
+                </div>
+            </div>
+            <div id="otherInventory">
+                <div id="noSecondInventoryMessage">
+					此背包未开放
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dialog">
+        <div id="nearPlayers">
+        </div>
+    </div>
+</body>
+</html>
